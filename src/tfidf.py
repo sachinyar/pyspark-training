@@ -72,7 +72,7 @@ if __name__ == '__main__':
 
     sc = SparkContext()
 
-    spark = SparkSession.builder.appName('KiMi_TFIDF').getOrCreate()
+    spark = SparkSession.builder.appName('TFIDF').getOrCreate()
 
     main()
 
